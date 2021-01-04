@@ -10,6 +10,7 @@
 
   export let beneficiary;
   export let element;
+  export let buttonText = "Donate DOT";
 
   let showModal = false;
   let multistep = createMultistep();
@@ -50,7 +51,7 @@
       on:click={() => (showModal = true)}
       class="dot-inline-block dot-bg-accent dot-py-2 dot-px-6 dot-m-auto
         dot-text-white dot-rounded">
-      Donate DOT
+      {buttonText}
     </button>
   {/if}
   {#if showModal}

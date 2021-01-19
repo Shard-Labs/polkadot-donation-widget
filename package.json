@@ -1,6 +1,6 @@
 {
   "name": "@shardlabs/polkadot-donation-widget",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "repository": "https://github.com/Shard-Labs/polkadot-donation-widget",
   "author": "Darko Macesic <darko@shardlabs.io>, Ana Milic Strkalj <ana@shardlabs.io>",
   "license": "Apache-2.0",
